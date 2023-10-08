@@ -1,9 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\StudentManagement",
-    "\\StudentManagement\\Model"
+    "\\StudentManagement"
   ],
-  "SelectedNode": "\\StudentManagement\\Model\\NotesModel.cs",
+  "SelectedNode": "\\StudentManagement\\packages",
   "PreviewInSolutionExplorer": false
 }
