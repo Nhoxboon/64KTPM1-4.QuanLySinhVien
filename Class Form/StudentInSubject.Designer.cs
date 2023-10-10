@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StudentInSubject));
             this.AppName = new System.Windows.Forms.Label();
             this.SubjectStudentGridView = new System.Windows.Forms.DataGridView();
             this.ClassNameLabel = new System.Windows.Forms.Label();
@@ -59,6 +60,7 @@
             this.SubjectStudentGridView.AllowUserToResizeColumns = false;
             this.SubjectStudentGridView.AllowUserToResizeRows = false;
             this.SubjectStudentGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.SubjectStudentGridView.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
             this.SubjectStudentGridView.ColumnHeadersHeight = 29;
             this.SubjectStudentGridView.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnEnter;
             this.SubjectStudentGridView.GridColor = System.Drawing.SystemColors.Control;
@@ -144,6 +146,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.SteelBlue;
             this.ClientSize = new System.Drawing.Size(1787, 833);
             this.Controls.Add(this.NoteButton);
             this.Controls.Add(this.PointButton);
@@ -153,6 +156,7 @@
             this.Controls.Add(this.ClassNameLabel);
             this.Controls.Add(this.SubjectStudentGridView);
             this.Controls.Add(this.AppName);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "StudentInSubject";
             this.Text = "StudentInSubject";
             this.MouseClick += new System.Windows.Forms.MouseEventHandler(this.StudentInSubject_MouseClick);

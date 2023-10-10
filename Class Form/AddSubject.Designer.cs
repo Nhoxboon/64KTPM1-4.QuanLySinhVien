@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddSubject));
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.AddSubjectButton = new System.Windows.Forms.Button();
             this.AddSubjectLabel = new System.Windows.Forms.Label();
@@ -70,10 +71,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.SteelBlue;
             this.ClientSize = new System.Drawing.Size(404, 192);
             this.Controls.Add(this.AddSubjectLabel);
             this.Controls.Add(this.AddSubjectButton);
             this.Controls.Add(this.textBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "AddSubject";
             this.Text = "AddSubject";
             this.ResumeLayout(false);
